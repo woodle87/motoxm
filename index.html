@@ -1,0 +1,210 @@
+<html lang="en" class="wf-allerdisplay-n4-active wf-cfcrackbold-n4-active wf-impact-n4-active wf-active"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+    <title>
+        MotoX3M
+    </title>
+    
+<script src="https://game-cdn.poki.com/scripts/d41700c51f154e15c615dd10702f98214a436cbf/poki-sdk-hoist-d41700c51f154e15c615dd10702f98214a436cbf.js" type="text/javascript" crossorigin="anonymous"></script><link rel="stylesheet" href="assets/css/AllerDisplay.css" media="all"><link rel="stylesheet" href="assets/css/CfCrackBold.css" media="all"><link rel="stylesheet" href="assets/css/impact.css" media="all"><style>
+.m8FXBR {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+
+.m8FXBR.t_E9eW {
+	position: fixed;
+}
+
+.nAM_hf {
+	background: #000;
+	backdrop-filter: blur(10px);
+
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.qmpUYt {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.qmpUYt.qWB0AN {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	cursor: pointer;
+}
+
+.aPwh82 {
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+
+	padding-top: 10%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #FFF;
+
+	font: 700 15pt 'Arial', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: 0.1s ease-in-out;
+	line-height: 1em;
+
+	display: none;
+}
+
+.qQtYdx {
+    background: rgba(0, 43, 80, 0.5);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	z-index: 11;
+}
+
+.PBq_cb {
+	cursor:pointer;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+.PBq_cb:hover .qQtYdx {
+		background: rgba(0, 43, 80, 0.7);
+	}
+
+.o_W9J9 {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 12;
+}
+
+.o_W9J9:before {
+		content: '';
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		display: block;
+		border: 2px solid #fff;
+		border-radius: 50%;
+		-webkit-user-select: none;
+		   -moz-user-select: none;
+		        user-select: none;
+		background-color: rgba(0, 0, 0, 0.6);
+		transition: background-color 0.5s ease;
+		animation: 1s linear infinite vCajRE;
+		z-index: 12;
+	}
+
+.o_W9J9:after {
+		content: '';
+		position: absolute;
+		display: block;
+		box-sizing: border-box;
+		border-color: transparent transparent transparent #fff;
+		border-style: solid;
+		border-width: 26px 0 26px 40px;
+		pointer-events: none;
+		animation: 1s linear infinite vCajRE;
+		left: 6px;
+		z-index: 12;
+	}
+
+@keyframes vCajRE {
+	0% {
+		transform: translate(-50%, -50%) scale(0.95);
+	}
+	70% {
+		transform: translate(-50%, -50%) scale(1.1);
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(0.95);
+	}
+}
+
+.mRoqOt {
+	background: #B8C7DD;
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	bottom: 0;
+	z-index: 9999;
+}
+
+._p4ryH {
+	position:relative;
+	bottom:0px;
+	background: #009CFF;
+	height: 100%;
+	width: 0%;
+	transition: width 0.5s;
+	transition-timing-function: linear;
+}
+
+.LI2Nug {
+	bottom: 10px;
+	position: absolute;
+	left: 10px;
+	z-index: 9999;
+	color: #FFF;
+	font: 700 9pt 'Arial', sans-serif;
+	filter: drop-shadow(0 0 0.2rem black);
+}
+
+.pkttBY {
+	display: block;
+	pointer-events: auto;
+}
+
+.pkttBY .nAM_hf {
+		opacity: 1;
+	}
+
+.Q94dIO {
+	display: none;
+	pointer-events: none;
+}
+</style></head>
+
+<body>
+    
+    <div id="content"><canvas width="590" height="480" style="display: block; touch-action: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 982px; height: 799px; cursor: default; margin-left: 0px;"></canvas></div>
+    <div id="loader" style="display: none;">Loading ...</div>
+
+    <script src="https://game-cdn.poki.com/scripts/v2/poki-sdk.js"></script>
+
+    <script type="text/javascript" src="assets/lib/nape.min.js">
+        var nape = "nape.min.js";
+    </script>
+
+    <script type="text/javascript" src="assets/lib/phaser.min.js"></script>
+    <script type="text/javascript" src="assets/lib/phaser-cachebuster.min.js"></script>
+    <script type="text/javascript" src="assets/lib/phaser-super-storage.min.js"></script>
+    <script type="text/javascript" src="assets/lib/dragonBones.min.js"></script>
+    <script type="text/javascript" src="assets/lib/pksl.js"></script>
+    
+<script type="text/javascript" src="motox3m.min.js?3178cbfd2cb550d3920a"></script>
+
+</body></html>
